@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="formulario">
+        <label for="email" >Email</label><br/>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+        <br/>
+        <label for="password">Password</label><br/>
+        <input type="text" name="senha" id="senha" placeholder="Digite sua senha" required>
+        <br/>
+        <button type="submit" onclick="login(event)">Login</button>
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
